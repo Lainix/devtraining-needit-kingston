@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="label" max_length="40" name="option" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Assigned to" max_length="125" name="x_58872_needit_u_assignet_to" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="125" name="x_58872_needit_u_description" type="string"/>
+        <element label="New Due Date" max_length="40" name="x_58872_needit_u_due_date" type="due_date"/>
+        <element label="Number" max_length="40" name="x_58872_needit_u_number" type="due_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Priority" max_length="40" name="x_58872_needit_u_priority" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Short description" max_length="125" name="x_58872_needit_u_short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="State" max_length="40" name="x_58872_needit_u_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Work notes" max_length="300" name="x_58872_needit_u_work_notes" type="string"/>
+    </element>
+</database>
